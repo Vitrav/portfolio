@@ -3,7 +3,6 @@ import { NgModule,ModuleWithProviders } from '@angular/core';
 //components
 import{ NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ButtonComponent } from './components/button/button.component';
 import { BasicFormComponent } from './components/basic-form/basic-form.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { CarrouselComponent } from './components/carrousel/carrousel.component';
@@ -14,7 +13,6 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
     declarations: [
         NavbarComponent,
         FooterComponent,
-        ButtonComponent,
         BasicFormComponent,
         AccordionComponent,
         CarrouselComponent,
@@ -27,7 +25,6 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
     exports: [
         NavbarComponent,
         FooterComponent,
-        ButtonComponent,
         BasicFormComponent,
         AccordionComponent,
         CarrouselComponent,

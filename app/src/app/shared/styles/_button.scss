@@ -1,0 +1,31 @@
+@import './settings';
+
+.btn{
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border: 3px solid transparent;
+    position: relative;
+    margin-right: 1rem;
+    &:hover{
+        color: $color-2-normal;
+    }
+
+    &-primary{
+        background-color: $color-2-normal;
+        box-shadow: 0 0.5rem 0 0 $color-3-normal;
+        color: $color-6-normal;
+
+        &:not(:disabled):hover{
+            color: $color-6-normal;
+            box-shadow: 0 0 0 0 transparent;
+            transform: translateY(0.5rem);
+        }
+
+        &:disabled{
+            color: $color-6-normal;
+            opacity: 30%;
+        }
+    }
+}

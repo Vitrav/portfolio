@@ -9,8 +9,7 @@ import { Component, OnInit } from "@angular/core";
   export class KitchensinkComponent implements OnInit {
       constructor(){}
 
-      ngOnInit(){
-   
+      ngOnInit(){   
       }
       
   }

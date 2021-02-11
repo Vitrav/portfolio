@@ -16,8 +16,7 @@ import { LayoutComponent } from './core/layout/layout.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    LayoutComponent,
-    HttpModule,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
