@@ -24,10 +24,10 @@ const routes: Routes = [
       //   )
       component : HomeComponent
     },
-    { path: 'about', component: AboutComponent},
-    { path: 'kitchensink', component: KitchensinkComponent }
     ]
   }
+  , { path: 'about', component: AboutComponent},
+  { path: 'kitchensink', component: KitchensinkComponent }
 ];
 
 @NgModule({
