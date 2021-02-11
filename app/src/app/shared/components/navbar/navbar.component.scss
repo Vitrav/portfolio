@@ -1,0 +1,28 @@
+@import '../../styles/settings';
+
+
+.navigation{
+    background-color:  $color-1-normal;
+    position: fixed;
+    padding: 1rem 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    &-container{
+        display: flex;
+        flex-direction: row;   
+        justify-content: space-between;
+    }
+
+    &-logo {
+        align-self: flex-start;
+        width: 25%;
+        min-width: 134px;
+        max-width: 186px;
+        height: auto;
+     }
+
+
+}
