@@ -18,6 +18,35 @@ body {
     @include breakpoint($ipad-horizontal){
         padding-top: $desktop-padding;
     }
+
+    &.light{
+        background-color: $color-5-normal;
+        color: $color-1-normal;
+
+        & a{
+            &:visited{
+                color: $color-1-normal;
+            }
+            &:hover{
+                color: $color-2-normal;
+            }
+        }
+        
+
+    }
+
+    &.dark{
+        background-color: $color-1-normal;
+        color: $color-6-normal; 
+        & a{
+            &:visited{
+                color: $color-6-normal;
+            }
+            &:hover{
+                color: $color-2-normal;
+            }
+        }
+    }
 }
 
 .container{
