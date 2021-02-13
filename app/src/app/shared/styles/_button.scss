@@ -1,13 +1,20 @@
 @import './settings';
 
 .btn{
+    color: $color-1-normal;
     display: inline-block;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0rem 1rem;
     font-weight: bold;
     border: 3px solid transparent;
     position: relative;
     margin-right: 1rem;
+    text-decoration: none;
+    font-size:1.125rem;
+    font-weight: bold;
+    
+
+    
     &:hover{
         color: $color-2-normal;
     }
@@ -16,11 +23,23 @@
         background-color: $color-2-normal;
         box-shadow: 0 0.5rem 0 0 $color-3-normal;
         color: $color-6-normal;
+        padding: 1rem;
+        font-size: 1.25rem;
 
         &:not(:disabled):hover{
             color: $color-6-normal;
             box-shadow: 0 0 0 0 transparent;
             transform: translateY(0.5rem);
+        }
+
+        &-icon{
+            display: flex;
+            align-items: center;
+            fill: $color-5-normal;
+
+            & img {
+                margin-left: 1rem;
+            }
         }
 
         &:disabled{
