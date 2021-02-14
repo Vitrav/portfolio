@@ -8,6 +8,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { CarrouselComponent } from './components/carrousel/carrousel.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
+import { SwitchButtonComponent } from './components/switch-button/switch-button.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
         AccordionComponent,
         CarrouselComponent,
         HeroComponent,
-        BreadcrumbComponent
+        BreadcrumbComponent,
+        SwitchButtonComponent
     ],
     imports: [
 

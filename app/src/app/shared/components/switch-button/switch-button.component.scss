@@ -1,0 +1,67 @@
+@import '../../styles/settings';
+.switch {
+    margin-top: 0.5rem;
+    position: relative;
+    display: inline-block;
+    height: 48px;
+    width: 92px;
+  }
+  
+  .switch input {
+    display:none;
+  }
+  
+  .slider {
+    position: absolute;
+    background-color: $color-6-normal;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: .4s;
+    border-radius: 5px;
+    border: 2px solid black;
+ 
+  }
+  
+  .slider:before {
+    background-color: $color-2-normal;
+    bottom: 10px;
+    content: "";
+    height: 32px;
+    box-shadow: 0 8px 0 0 $color-3-normal;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 40px;
+    border-radius: 5px;
+    background-image: url("../../assets/icons/sun.svg");
+    // background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+  }
+  
+  input:checked + .slider {
+    background-color: $color-6-normal;
+    
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(40px);
+    background-color: $color-2-normal;
+    background-image: url("../../assets/icons/moon.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
