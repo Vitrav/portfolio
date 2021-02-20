@@ -1,4 +1,4 @@
-<label class="switch" for="checkbox">
-    <input type="checkbox" id="checkbox" />
+<label class="switch" for="checkbox" id="color-scheme">
+    <input type="checkbox" id="checkbox" [(ngModel)]="isChecked" (change)="checkMode(isChecked?'A':'B')"/>
     <div class="slider"></div>
   </label>
