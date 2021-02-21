@@ -1,0 +1,16 @@
+@import "./settings";
+
+h1{
+    font-family: $font-heading;
+    font-weight: bold;
+    font-size: 88px;
+}
+
+.highlighted {
+    color: $color-2-normal;
+}
+
+.subtext{
+    font-family: $font-subs;
+    
+}
