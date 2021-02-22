@@ -56,6 +56,10 @@ body {
     padding: 0 1.5rem;
     margin-left: 15rem;
     margin-right: 15rem;
+
+    &.first{
+        margin-top: 15rem;
+    }
 }
 
 li {
